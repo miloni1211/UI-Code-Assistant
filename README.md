@@ -18,21 +18,29 @@ Page 1 - Home Page
 The user can ask questions in the prompt area and the UI/UX Genie will provide answers to their questions. The user can access other features like UI code generator, UI Code and design analysis and additional features.
 Dark mode/Light mode available on all the pages. ‘Bin’ icon is used to delete chat history.
 [Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Home-page.png)
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Light-mode.png)
 
 Page 2 - Code generator 
 Users can choose the option from the dropdown for which they need a basic code snippet to integrate onto their website and the assistant will provide the code template. Copy button is also available to copy the desired code.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Code-generator.png)
  
 Page 3 - UI Analysis (UI design and Code Analysis)
 Analyze UI design and UI code both the features available on the same page. The page is divided into 2 sections. On the left section the user can paste their code, upload a UI screenshot. On the right side, the AI will provide feedback/suggestions for the UI design and also give an improvised code in the Improved Code section.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/UI-design-analysis.png)
 
 Page 4 - Responsive Test (additional feature)
 Looking at the different types of devices that are available now, it has become a necessity that the web page must work and be displayed properly on each and every device i.e. all the web pages must be responsive. In this case, it can become diﬃcult for the UI developer/designer to verify if the web pages are responsive. Using the ‘Responsive Test’ feature, it is possible to verify the responsiveness of the web page easily and quickly. User has to enter the URL of the link and the UI/UX Genie will show how the website will be displayed on mobile, tablet and desktop.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Responsive-test-img1.png)
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Responsive-test-img2.png)
 
 Page 5 - Cross Browser Compatibility Checker (additional feature)
 People use different web browsers to access the internet. The developer/ designer should make sure that the website/page must be available on every browser (at least that are majorly used). The ‘Cross Browser Compatibility test’ feature will check if the website is compatible on different browsers. User will enter the web page URL and click on check compatibility to verify the compatibility. The UI/UX Genie will quickly provide the compatibility report.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Cross-browser-comapatibility-checker.png)
 
 Page 6 - Color Scheme Guide (additional feature)
 While creating a webpage, the designers/developers need to make sure that they use decent colors for the page. Poor color choice may lead to poor user experience and decreased accessibility. The "Color Scheme Guide" feature assists in selecting harmonious and visually appealing color combinations for web pages, enhancing overall design aesthetics and user experience.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Color-scheme-guide-img1.png)
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Color-scheme-guide-img2.png)
 
 Implementation:-
 
@@ -41,3 +49,73 @@ Home Page -
 2.	The UI code assistant will prompt the user to ask about their expertise level.
 Enter your expertise level as -”beginner” / “intermediate” / “advanced” / “expert”. (Copy/enter any of the one expertise level)
 3.	Dark/Light mode and delete chat history available near the prompt area.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Home-implement-img1.png)
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Home-implement-img2.png)
+
+Code Generator -
+1.	Choose the Component type from the dropdown box for which you need the UI code snippet.
+2.	Click on ‘Generate Code’ and UI/UX Genie will give you the required code that can be easily copied using the ‘Copy Code’ button.
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img1.png)
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img2.png)
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img3.png)
+
+UI Analysis -
+Steps to implement -
+
+1.	Paste the below code for ‘Login form’ in the Code Input area. It has a poor UI code and UI design.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style> body {
+font-family: Arial, sans-serif;
+}
+.container { width: 300px;
+margin: 100px auto;
+}
+input[type="text"], input[type="password"], input[type="submit"] { width: 100%;
+padding: 10px; margin: 10px 0;
+box-sizing: border-box;
+}
+input[type="submit"] { background-color: #4CAF50; color: white;
+border: none; cursor: pointer;
+}
+.error { color: red;
+font-size: 14px; margin-top: 5px;
+}
+ 
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Login Form</h2>
+<form id="loginForm">
+
+<input type="text" id="username" name="username" required>
+<div id="usernameError" class="error"></div>
+
+<input type="password" id="password" name="password" required>
+<div id="passwordError" class="error"></div>
+<input type="submit" value="Login">
+</form>
+<div id="loginMessage"></div>
+</div>
+<script>
+document.getElementById("loginForm").addEventListener("submit", function(event)) { event.preventDefault();
+
+var username = document.getElementById("username").value; var password = document.getElementById("password").value; document.getElementById("usernameError").innerHTML = ""; document.getElementById("passwordError").innerHTML = ""; if (!username) {
+document.getElementById("usernameError").innerHTML = "Please enter your username.";
+return;
+}
+if (!password) {
+document.getElementById("passwordError").innerHTML = "Please enter your
+password return;
+}
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Output for the above code -
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/UI-Code-Assistant/Screenshot-1.jpg)
