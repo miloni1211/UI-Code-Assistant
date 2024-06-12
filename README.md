@@ -33,3 +33,11 @@ People use different web browsers to access the internet. The developer/ designe
 
 Page 6 - Color Scheme Guide (additional feature)
 While creating a webpage, the designers/developers need to make sure that they use decent colors for the page. Poor color choice may lead to poor user experience and decreased accessibility. The "Color Scheme Guide" feature assists in selecting harmonious and visually appealing color combinations for web pages, enhancing overall design aesthetics and user experience.
+
+Implementation:-
+
+Home Page -
+1.	Start writing your questions in the prompt area. UI/UX Genie will provide a solution. Enter this exact question - “Help me with a ui design”
+2.	The UI code assistant will prompt the user to ask about their expertise level.
+Enter your expertise level as -”beginner” / “intermediate” / “advanced” / “expert”. (Copy/enter any of the one expertise level)
+3.	Dark/Light mode and delete chat history available near the prompt area.
