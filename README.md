@@ -72,60 +72,7 @@ Code Generator -
 UI Analysis -
 Steps to implement -
 
-1.	Paste the below code for ‘Login form’ in the Code Input area. It has a poor UI code and UI design.
--------------------------------------------------------------------------------------------------------------------------------------------------------
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login Page</title>
-<style> body {
-font-family: Arial, sans-serif;
-}
-.container { width: 300px;
-margin: 100px auto;
-}
-input[type="text"], input[type="password"], input[type="submit"] { width: 100%;
-padding: 10px; margin: 10px 0;
-box-sizing: border-box;
-}
-input[type="submit"] { background-color: #4CAF50; color: white;
-border: none; cursor: pointer;
-}
-.error { color: red;
-font-size: 14px; margin-top: 5px;
-}
-</style>
-</head>
-<body>
-<div class="container">
-<h2>Login Form</h2>
-<form id="loginForm">
-<input type="text" id="username" name="username" required>
-<div id="usernameError" class="error"></div>
-<input type="password" id="password" name="password" required>
-<div id="passwordError" class="error"></div>
-<input type="submit" value="Login">
-</form>
-<div id="loginMessage"></div>
-</div>
-<script>
-document.getElementById("loginForm").addEventListener("submit", function(event)) { event.preventDefault();
-var username = document.getElementById("username").value; var password = document.getElementById("password").value; document.getElementById("usernameError").innerHTML = ""; document.getElementById("passwordError").innerHTML = ""; if (!username) {
-document.getElementById("usernameError").innerHTML = "Please enter your username.";
-return;
-}
-if (!password) {
-document.getElementById("passwordError").innerHTML = "Please enter your
-password return;
-}
-}
--------------------------------------------------------------------------------------------------------------------------------------------------------
-Output for the above code -
- 
-[Login form.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/UI-Code-Assistant/Screenshot-1.jpg)
-
+1.	Paste the code for ‘Login form’ in the Code Input area for which the user wants an improved code.
 2.	Choose ‘Screenshot1.jpg’ from the folder and click on Analyze button. (you can upload any image)
 3.	Under the Analysis & Suggestions section, the UI/UX Genie will provide suggestions about the UI design and to improve user experience.
 4.	The UI/UX Genie will analyze the code and provide improved code under the Improved code section. (Our page is not providing the complete improved code. Instead it is only giving a small part of the code that will improve the UI.)
