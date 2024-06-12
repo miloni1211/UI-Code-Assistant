@@ -17,7 +17,7 @@ Prototype Overview:- (Detailed steps are given in the implementation part)
 Page 1 - Home Page
 The user can ask questions in the prompt area and the UI/UX Genie will provide answers to their questions. The user can access other features like UI code generator, UI Code and design analysis and additional features.
 Dark mode/Light mode available on all the pages. ‘Bin’ icon is used to delete chat history.
-
+[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/blob/master/Images%20for%20ReadMe/Home%20page.png?raw=true)
 
 Page 2 - Code generator 
 Users can choose the option from the dropdown for which they need a basic code snippet to integrate onto their website and the assistant will provide the code template. Copy button is also available to copy the desired code.
