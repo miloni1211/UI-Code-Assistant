@@ -1,5 +1,7 @@
 UI CODE ASSISTANT
 (This application focuses on UI UX design and development.)
+
+
 Design :-
 Scenario 1 - Imagine a UI/UX designer, pressed for time, needing to implement a basic feature like a Login/Signup page swiftly. Instead of spending precious minutes designing and coding from scratch, the designer turns to the UI Code Assistant. With a few clicks, they access pre-existing login template codes, instantly integrating them into their project, also picking up the right color scheme for the website can also be a tedious time consuming task, in order to solve this the user can select multiple color combinations available on the website and integrate in their website. Thus optimizing their workﬂow and conserving valuable time.
 
