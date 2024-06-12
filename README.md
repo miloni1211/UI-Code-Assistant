@@ -1,5 +1,5 @@
 UI CODE ASSISTANT
-
+(This application focuses on UI UX design and development.)
 Design :-
 Scenario 1 - Imagine a UI/UX designer, pressed for time, needing to implement a basic feature like a Login/Signup page swiftly. Instead of spending precious minutes designing and coding from scratch, the designer turns to the UI Code Assistant. With a few clicks, they access pre-existing login template codes, instantly integrating them into their project, also picking up the right color scheme for the website can also be a tedious time consuming task, in order to solve this the user can select multiple color combinations available on the website and integrate in their website. Thus optimizing their workﬂow and conserving valuable time.
 
@@ -55,9 +55,6 @@ Enter your expertise level as -”beginner” / “intermediate” / “advanced
 Code Generator -
 1.	Choose the Component type from the dropdown box for which you need the UI code snippet.
 2.	Click on ‘Generate Code’ and UI/UX Genie will give you the required code that can be easily copied using the ‘Copy Code’ button.
-[Code generator componenet type.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img1.png)
-[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img2.png)
-[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img3.png)
 
 UI Analysis -
 Steps to implement -
@@ -118,4 +115,35 @@ password return;
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Output for the above code -
-[Images for ReadMe/Home page.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/UI-Code-Assistant/Screenshot-1.jpg)
+[Login form.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/UI-Code-Assistant/Screenshot-1.jpg)
+
+2.	Choose ‘Screenshot1.jpg’ from the folder and click on Analyze button. (you can upload any image)
+3.	Under the Analysis & Suggestions section, the UI/UX Genie will provide suggestions about the UI design and to improve user experience.
+4.	The UI/UX Genie will analyze the code and provide improved code under the Improved code section. (Our page is not providing the complete improved code. Instead it is only giving a small part of the code that will improve the UI.)
+5.	The code can be copied using the ‘Copy Code’ button.
+6.	An alert box appears conﬁrming that the code is copied to the clipboard.
+[Code generator componenet type.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img1.png)
+[Generate code.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img2.png)
+[Copy code.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Codegenerator-img3.png)
+
+Explore more features (Additional Features) -
+A.	Responsive Test -
+ 
+1.	Copy the URL - ‘https://www.amazon.com/’ in the search bar and click on the ‘Preview Website’ button.
+2.	The mobile preview, tablet preview and desktop preview of the web page will be displayed. (Additional devices can be added for preview).
+3.	If you directly click on the preview website without entering the URL, an alert message is displayed ‘Please enter a URL to preview.’
+[Mobile and Tablet preview.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Responsive-website-img1.png)
+[Desktop preview.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Responsive-website-img2.png)
+
+B.	Cross Browser Compatibility Checker -
+1.	Copy the URL - ‘https://www.amazon.com/’ and click on the ‘Check compatibility’ button to view Compatibility check results. (We have displayed an example of how the compatibility results can be displayed.)
+2.	The user can either copy the URL or copy the HTML code.
+[Cross browser.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Cross-browser-test-img1.png)
+
+C.	Color Scheme Guide -
+1.	This page displays a set of colors that can be used for your website. Click on ‘Copy color Set 1’ to copy the hex values of the colors in set 1.
+2.	Scroll down to explore more color sets and copy the hex values.
+3.	The user can get an idea on which color combinations would be perfectly suitable for their website.
+[Color guide.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Color-scheme-guide-img1.png)
+[Color guide.png](https://github.com/miloni1211/UI-Code-Assistant/raw/master/ReadMe-Images/Color-scheme-guide-img2.png)
+
